@@ -3,7 +3,7 @@ Repositório contendo roteiro passo-a-passo para criar um Modelo de previsão us
 
 ## Resumo
 
-Neste passo-a-passo será demonstrado como se utilizando do serviço do Microsoft Machine Learning, podemos criar um modelo de estudo de regressão para podemos obter a informação do número de alugueis previsto em um data momento do ano.
+Neste passo-a-passo será demonstrado como se utilizar do serviço do Microsoft Machine Learning, para podermos criar e treinar um modelo de estudo de regressão para obtermos a informação do número de alugueis previsto em um data momento do ano.
 
 ## Pré-requisito
 
