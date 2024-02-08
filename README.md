@@ -78,15 +78,71 @@ _\***Cobrança**: Com a conta gratuita você irá receber um bonus da Microsoft 
 
   08 - Clique em [Review + Create] e depoisem [Create]
   
-  09 - Aguarde alguns minutos e receber a notificação em tela de que todos os recursos foram criados, você será redirecionado para tela
-  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/f45eec65-2193-45ca-b38f-3029146f9caf)
+  09 - Aguarde alguns minutos e ao receber a notificação em tela de que todos os recursos foram criados, você Clica em [Go to Resource]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/8b8174e3-df86-4315-986b-8003763d2ed9)
 
   10 - Clique em [Launch Studio] para abrir o Azure Micrososft Learning
-  
-  11 - 
-  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/3e88815a-8cad-4719-a21e-f52109655c3b)
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/da4a6a6c-7f90-446c-a706-b0445f04f83d)
 
+  11 - Com o **Azure Micrososft Learning** aberto, do seu lado esquerdo clique em [Automated ML]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/ee19e31b-2116-49c7-8eea-22c3067e5861)
+
+  12 - Clique em [+ New Automated ML job]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/9a558da4-f610-45b8-a40c-e2ee5e4da5cf)
+
+  13 - Preencha os campos Job Name, New Experiment name e Description, clicando em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/6619621b-9f14-44dc-8938-1a51dabf3261)
+
+  14 - Selecione o tipo de task de Regression
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/5690055e-a2f4-4d20-8596-fdb90e1394e6)
+
+  15 - Clique em [Create], para selecionarmos a origem dos dados a serem utilizados no treino do Modelo
+
+  16 - Na nova tela preencha os campos e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/6bc165a4-6ad8-4406-ab41-bd4a8f8d312e)
+
+  17 -  Selecione [From Web Files] e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/a1683396-5e61-49ca-8227-ba3ea0f2c8eb)
+
+  18 - Defina a URL de origem de onde será obtidos os dados e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/fc99ce70-51d0-4c80-a671-6c2bb16d523e)
+
+  19 - Altere o campo {Column headers} para **Only first file has headers** er desmarque a opção **Dataset contains multi-line data** e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/50dad8c8-2aff-4b8d-87d5-6b21871d3afe)
+
+  20 - Clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/f9350519-e4f0-4836-a79d-1427ab72c33b)
+
+  21 - Reveja as informações e Clique em [Create]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/aa27683d-4871-4686-b7ba-6439693c5f50)
+
+  22 - Selecione o Data Set criado {bike-rentals} e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/cf35570d-edce-4ce3-96ae-b5d6a535a464)
+
+  23 - No campo {Target Column}, selecione a opção rentals(Integer)
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/036416de-9e3a-49b8-bd81-994cd0776a48)
+
+  23 - Clique em [View Additional Configuration Settings]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/a5635043-bc6c-49f8-9207-27ab32b043dc)
   
+  24 - Preencha os campos conforme abaixo e clique em [Save]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/c49a5b4f-3e98-4151-9e4e-c00d6546cb29)
+
+  25 - Expanda a opção [Limits] e preencha os campos conforme abaixo e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/ed11cbf8-62ea-4b54-aaa2-4de01f5779ac)
+
+  26 - Mantenha as opções selecionadas e clique em [Next]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/9dbc8313-77f9-4570-ae1e-05a81c4ef4db)
+
+  27 - Revise as informações e clique em [Submit Training Job]
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/54caf3f8-d5a4-4276-b956-5d26c0c0e824)
+
+  28 - O treino/job vai ter inicio no seu processamento; Aguarde sua conclusão
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/801430c4-aa54-46f0-8b22-a76c964e9712)
+CompComCompletsssssss
+  29 - Quando concluido, podemos verificar no campo Status o status de Com
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/267ea9d8-1aac-4953-bc2d-46364068f90f)
+
 ## Resultados
 
 ### Arquivo(s)
