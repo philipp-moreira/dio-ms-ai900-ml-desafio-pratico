@@ -139,9 +139,36 @@ _\***Cobrança**: Com a conta gratuita você irá receber um bonus da Microsoft 
 
   28 - O treino/job vai ter inicio no seu processamento; Aguarde sua conclusão
   ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/801430c4-aa54-46f0-8b22-a76c964e9712)
-CompComCompletsssssss
-  29 - Quando concluido, podemos verificar no campo Status o status de Com
+
+  29 - Quando concluido, podemos verificar no campo Status o status de Completed.<br>
+  Do lado direito na seção {Best model summary}, pode-se obter do serviço do Azure Machine Learning a indicação do melhor algoritmo, durante a etapa de treino
+  do modelo.
   ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/267ea9d8-1aac-4953-bc2d-46364068f90f)
+
+  30 - Ao clicar em cima do nome do modelo com melhor performance, somos direcionados a uma tela que podem demonstrar mais detalhes do motivo pelo qual este foi o modelo com melhor performance
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/892df195-61c2-47ab-9c87-59959159035b)
+
+  31 - Ao clicar em [Metrics], vemos o resultado das métricas/dimensões de avaliação obtidas utilizando um treino baseado em uma tarefa de regressão.
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/924705f8-e0ad-4ff8-ae0a-7e6f9ace02ca)
+
+  32 - O próximo passo que se faz necessário, é a publicação do modelo para que possamos testar o modelo treinado.
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/e57014a8-a128-41cc-a83e-c513676cb310)
+
+  33 - Uma vez iniciado o Deploy, observe no campo status Deploy que é indicado que o processo está "Rodando"(Running)
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/9f6d22bf-5e18-468a-a077-55be5586935d)
+
+  34 - Ao final da conclusão do passo de Deplou pode se notar que o status mudou para Sucesso (Succeeded)
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/6db91d98-3653-479f-9b22-54a1ee2ed5fc)
+
+  35 - Neste passo podemos avaliar nosso modelo; Do lado esquerdo clicando em [Endpoints], o constatando a criação do nosso Endpoint
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/2b8efc8d-2441-43ab-83e9-9fdbf39acfec)
+
+  36 - Ao clicar no nome do Endpoint criado, seremos redirecionados para a pagina 
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/ba7489ac-0106-4e5b-8d76-56d232af39e0)
+
+  37 - Ao clicarmos na aba test, podemos testar no modelo e obter a informação desejada, ou seja, o número previsto de aluguel de bicicletas em uma data e baseado em dados de estação do ano e recursos metereológicos.
+  ![image](https://github.com/philipp-moreira/dio-ms-ai900-ml-desafio-pratico/assets/17642499/9b7fed09-a53c-4ba9-97eb-1aaaa28cfe1d)
+
 
 ## Resultados
 
