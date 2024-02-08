@@ -1,7 +1,9 @@
-# dio-ms-ai900-ml-desafio-pratico
+## Objetivo
 Repositório contendo roteiro passo-a-passo para criar um Modelo de previsão usando o Azure Machine Learning Studio.
 
-## Objetivo
+## Resumo
+
+Neste passo-a-passo será demonstrado como se utilizando do serviço do Microsoft Machine Learning, podemos criar um modelo de estudo de regressão para podemos obter a informação do número de alugueis previsto em um data momento do ano.
 
 ## Pré-requisito
 
@@ -172,4 +174,4 @@ _\***Cobrança**: Com a conta gratuita você irá receber um bonus da Microsoft 
 
 ## Resultados
 
-### Arquivo(s)
+### Arquivo(s): vide o arquivo endpoint-predict-rentals.json
